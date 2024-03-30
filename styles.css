@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: 'Arial', sans-serif;
+    background-color: #F2F2F2;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header {
+   
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #DDE1F8;
+}
+
+.nav-logo img {
+    height: 200px;
+
+}
+/* Home section styles */
+#home {
+    background: #000000;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#home p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+
+button {
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #CC5C5C;
+}
+
+
+#contact {
+    background: white;
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+#contact form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #CCC;
+    font-size: 1em;
+}
+
+#contact input[type="submit"] {
+    background: #cc6d80;
+    border: 1px solid #cc6d80;
+    color: white;
+    font-size: 1em;
+    padding: 15px 30px;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #contact input,
+    #contact textarea {
+        width: calc(100% - 30px);
+    }
+}
